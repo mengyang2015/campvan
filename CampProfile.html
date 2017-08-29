@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Camp Profile</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="resources/sass/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+  <!-- ************* begin of navigation bar ******************* -->
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <!-- Begin of navbar-header --------->
+      <div class="navbar-header">
+
+        <!-- hamburger menu -->
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button><!-- End of hamburger menu -->
+
+        <!-- Logo -->
+        <img id="navbar-brand" src="resources/images/Logo-Web-1.png" alt="CampVan">
+
+     </div> <!-- End of navbar-header --------->
+
+
+
+       <!-- Collapsed Hamburger Menu Area-->
+       <div class="collapse navbar-collapse " id="myNavbar">
+
+           <!-- Search Box-->
+           <form class="navbar-form navbar-left">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Search">
+              <div class="input-group-btn">
+                <button class="btn btn-default" type="submit">
+                  <i class="glyphicon glyphicon-search"></i>
+                </button>
+              </div>
+            </div>
+          </form>
+
+          <!-- Sign Up & Login Buttons-->
+           <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+           </ul>
+
+           <!-- Navigation Menu-->
+           <ul class="nav navbar-nav nav-menu navbar-right">
+             <li class="active"><a href="#">Browse</a></li>
+             <li><a href="#">Favorites</a></li>
+             <li><a href="#">Friends</a></li>
+           </ul>
+
+      </div> <!-- End of Collapsed Hamburger Menu Area-->
+    </div> <!-- End of container-fluid --------->
+  </nav> <!-- ************* end of navigation bar ******************* -->
+
+
+  <!-- ************* Begin of Tab Navigation ******************* -->
+    <div class="container-fluid container-tabs">
+      <ul class="nav nav-pills nav-justified">
+          <li class="active"><a href="#">Featured</a></li>
+          <li><a href="#">Multi</a></li>
+          <li><a href="#">Academics</a></li>
+          <li><a href="#">Art</a></li>
+          <li><a href="#">Dance</a></li>
+          <li><a href="#">Music</a></li>
+          <li><a href="#">Sports</a></li>
+          <li><a href="#">STEM</a></li>
+        </ul>
+    </div> <!-- ************* End of Tab Navigation ******************* -->
+
+
+
+  <!-- ************* Begin of Main Content ******************* -->
+
+
+
+  <div class="container content-fluid">
+    <div class="row">
+
+      <!-- **Begin of Left Column: Map ** -->
+      <div class="col-xs-12 col-sm-6 camp-map">
+          <div id="google-map" style="width:100%;height:600px;">My map will go here</div>
+      </div><!-- **End of Left Column: Map ** -->
+
+
+      <!-- **Begin of Right Column: Camp Profile ** -->
+      <div class="col-xs-12 col-sm-6 camp-profile">
+
+        <!-- Camp Title Bar-->
+        <div class="camp-title-bar">
+
+        </div>
+
+        <!-- Camp Share Edit Bar-->
+        <div class="camp-share-edit-bar">
+
+        </div>
+
+
+        <!-- Camp Image Slide Show-->
+        <div class="camp-image-slide">
+
+        </div>
+
+        <!-- Camp Review-Website Bar-->
+        <div class="camp-review-bar">
+
+        </div>
+
+        <!-- Camp Tags-->
+        <div class="camp-tags">
+
+        </div>
+
+        <!-- Camp Categories-->
+        <div class="camp-categories">
+
+        </div>
+
+        <!-- Camp Overview-->
+        <div class="camp-overview">
+
+        </div>
+
+        <!-- Camp Location-->
+        <div class="camp-location">
+
+        </div>
+
+        <!-- Camp Dates-->
+        <div class="camp-dates">
+
+        </div>
+
+        <!-- Camp Time & Price-->
+        <div class="camp-time-price">
+
+        </div>
+
+        <!-- Camp Bus Transportation-->
+        <div class="camp-transport">
+
+        </div>
+
+
+
+
+
+
+
+      </div><!-- **End of Right Column: Camp Profile ** -->
+
+
+    </div>   <!-- **End of Row ** -->
+
+
+
+  </div>   <!-- ************* End of Main Content ******************* -->
+
+
+  <!--  JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="resources/js/main.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCvH2B2LlE9ffiFtozJ-NTugupRGZNxEds&callback=myMap" async defer></script>
+
+</body>
+</html>

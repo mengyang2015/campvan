@@ -1,0 +1,51 @@
+/**
+ * CH01 - Resets
+ * CH02 - Typography
+ * CH03 - Page Structure
+ * CH04 - Header & Navigation
+ * CH05 - Content & Media
+ * CH06 - Footer
+ * CH07 - Miscellaneous
+**/
+@import url(main.css);
+
+/*/////////////// GLOBAL STYLES ////////////////////*/
+body{
+  padding: 30px;
+  background: #eee;
+}
+
+
+.edit-camp-col {
+  margin: 10px 20px 10px 0 ;
+}
+
+.edit-camp-newpic {
+  height: 220px;
+  width: 190px;
+  background-color: white;
+}
+
+.field-label {
+  color: #999;
+  font-weight: normal;
+}
+
+.option-label {
+  color: #000;
+  font-weight: normal;
+  margin-left:10px;
+}
+
+.same-row-label {
+  float: left;
+}
+
+.border-group {
+  border: solid 1px #ccc;
+  border-radius: 5px;
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  background-color: white;
+}
